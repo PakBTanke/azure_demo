@@ -14,7 +14,7 @@ variables:
   imageRepository: 'pakbtankeazuredemo'
   containerRegistry: 'azuredocker1.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
-  tag: '$(Build.BuildId)'
+  tag: 'latest'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
